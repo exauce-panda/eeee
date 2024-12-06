@@ -19,19 +19,20 @@ export default function DescAlpha() {
         <div className={`${styles.bob}`}>
             <div className="d-flex">
             <div className={`text-white ${styles.identification}`}>
-                <h1 className="fw-bold">Developpeur Web junior front-end</h1>
+                <h1 className="fw-bold">Développeur Web junior front-end</h1>
+                <div className="text-warning fw-light fs-5">SEO Friendly | Intégration d'UI responsive et intéractive | Intégration d'API</div>
                 <div className="text-warning fs-4 fw-bold">Exauce Mpanda Kabanangi</div> 
-                <div className="text-warning fs-5">Reside à Gatineau, QC</div>     
+                <div className="text-secondary fs-5">Réside à Gatineau, QC</div>     
                 <div className="text-white fs-5">Diplôme d'étude collegiale en programmation informatique</div>
-                <div className="text-secondary fw-light">SEO Friendly | Integration d'UI responsive et interactive | Integration d'API</div>                                  
+                                                  
             </div>
             <div className={`${styles.image}`}>
                      <Image src={logobalise} alt="logo balise" width={240} height={240} /> 
             </div>
             </div>
-            <div className="text-success text-center mx-auto my-5">Salut</div>
+            <div className="text-success text-center mx-auto my-5">Salut !</div>
             {/* Insertion du composant Carousel pour la présentation d'images défilantes */}           
-            <div className="text-white text-center mx-auto my-5" style={{ maxWidth: '70%', fontSize: '1.2rem', lineHeight: '1.5' }}>
+            <div className="text-white text-center mx-auto my-5 fs-5" style={{ maxWidth: '70%', fontSize: '1.2rem', lineHeight: '1.5' }}>
                 {/* Affichage conditionnel du texte : complet si showFullText est vrai, réduit sinon */}
                 <p className={`${styles.resumer}`}>
                     {showFullText ? (
@@ -51,7 +52,7 @@ Je suis convaincu de mes capacités, notamment en matière de travail en équipe
                 <div className="text-center">
                     {/* Bouton pour basculer l'affichage du texte */}
                     <button onClick={toggleReadMore} className="btn-success btn mt-3">
-                        {showFullText ? 'Revenir au text précedent' : 'En apprendre plus sur moi'}
+                        {showFullText ? 'Révenir au text précedent' : 'En apprendre plus sur moi'}
                     </button>
                 </div>
                 <div className={styles.competance}>
@@ -59,7 +60,7 @@ Je suis convaincu de mes capacités, notamment en matière de travail en équipe
                     <Image src={logodev} alt="logo devweb" width={80} height={80} /> 
                     </div>
                 <div className="fs-4">
-                    Developpeur Front-End
+                    Développeur Front-End
                 </div>
                 <div className="text-warning fs-5 text-decoration-underline">
                     Languages

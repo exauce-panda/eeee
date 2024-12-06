@@ -94,7 +94,7 @@ export default function Contact() {
                         {/* Informations de contact */}
                         <div className="text-white p-4 rounded">
                             <h2 className='mb-5'>Coordonnées</h2>
-                            <p className="text-warning">Voici comment vous pouvez nous joindre :</p>
+                            <p className="text-warning">Voici aussi comment vous pouvez me joindre :</p>
                             <ul>
                                 <li>Téléphone : +1 438 508 5575</li>
                                 <li>Email : exaupandak@gmail.com</li>

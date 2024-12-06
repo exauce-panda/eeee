@@ -1,17 +1,17 @@
 [
     {
-      "question": "Pourquoi je suis en Front-End?",
-      "answer": "J'aime voir les resultats concret de mes projets et notamment c'est ce que permet le font end et je trouve ca plus excitant ce qui me donne plus envie de faire ce que j'aime donc programmer :)",
+      "question": "Pourquoi suis-je en Front-End ?",
+      "answer": "J'aime voir les résultats concrets de mes projets, et c'est notamment ce que permet le frontend. Je trouve cela plus excitant, ce qui me donne encore plus envie de faire ce que j'aime : programmer. :)",
       "id": "one"
     },
     {
-      "question": "Demenagement possible?",
-      "answer": "Oui tant que je reste au canada. Je detient un permis de travail canadien me permettant de resider au canada et d'y travailler.",
+      "question": "Démenagement possible ?",
+      "answer": "Oui, tant que je reste au Canada. Je détiens un permis de travail canadien me permettant de résider au Canada et d’y travailler.",
       "id": "two"
     },
     {
       "question": "Sur place, Hybride ou Télétravail?",
-      "answer": "Je suis ouvert à toutes proposition.",
+      "answer": "Je suis ouvert à toutes propositions.",
       "id": "three"
     }
 ]

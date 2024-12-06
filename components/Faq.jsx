@@ -23,14 +23,14 @@ export default function Faq() {
             <h2 className="accordion-header" id={`heading${id}`}>
               {/* Le bouton sert de déclencheur pour afficher ou masquer la réponse à la question. */}
               <button className={`text-white accordion-button collapsed ${styles.bgcolor}`} type="button" data-bs-toggle="collapse" data-bs-target={`#collapse${id}`} aria-expanded="false" aria-controls={`collapse${id}`}>
-                <div>
+                <div className="fs-5">
                 {question} {/* Affiche la question. */}
                 </div>
               </button>
             </h2>
             {/* La réponse est contenue ici et est montrée/cachée en fonction de l'état de l'accordéon. */}
             <div id={`collapse${id}`} className={`text-warning accordion-collapse collapse ${styles.bgcolor}`} aria-labelledby={`heading${id}`} data-bs-parent="#accordionFAQ">
-              <div className="accordion-body">
+              <div className="accordion-body fs-5">
                 {answer} {/* Affiche la réponse. */}
               </div>
             </div>
