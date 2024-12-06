@@ -1,0 +1,10 @@
+.header{
+    background-color: #0f1316;
+}
+.alignement{
+    display:flex;
+    justify-content: center;
+}
+.nav{
+    display: flex;
+}

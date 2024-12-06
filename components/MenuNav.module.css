@@ -1,0 +1,26 @@
+/* Styles de base pour le composant de navigation */
+.nav {
+    display: flex;
+    background-color: #0f1316; /* Définit la couleur de fond de la barre de navigation */
+    padding: 2rem 0; /* Espacement vertical pour l'intérieur de la barre de navigation */
+}
+.nav a {
+    color: azure; /* Définit la couleur des liens */
+    text-decoration: none; /* Supprime le soulignement des liens */
+    padding: 15px 7px; /* Espacement autour du texte des liens */
+    border-radius: 10px; /* Coins arrondis pour les liens */
+    background-color: transparent; /* Fond transparent pour les liens */
+    transition: color 0.3s, background-color 0.3s; /* Transition fluide pour la couleur et le fond des liens */
+}
+.nav a:hover { /* Fond blanc au survol des liens */
+    color:gold; /* Texte noir au survol des liens */
+}
+.nav ul {
+    display: flex; /* Les éléments de la liste sont disposés en ligne */
+    align-items: center; /* Centre les éléments de la liste verticalement */
+    justify-content: center; /* Centre les éléments de la liste horizontalement */
+    gap: 20px; /* Espacement entre les éléments de la liste */
+    padding: 0; /* Annule le padding par défaut de la liste */
+    margin-top: 15px; /* Annule la marge par défaut de la liste */
+    list-style-type: none; /* Supprime les puces de liste */
+}

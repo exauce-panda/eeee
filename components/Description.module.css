@@ -1,0 +1,55 @@
+/* Définition des styles pour le composant DescriptionAlphaCenter */
+/* Styles pour le conteneur principal du composant */
+.bob button {
+  background-color: black; /* Couleur de fond des boutons dans .bob */
+  color: azure; /* Couleur du texte des boutons dans .bob */
+}
+/* Styles pour le bouton lors du survol */
+.bob button:hover {
+  background-color: rgb(74, 73, 73); /* Couleur de fond des boutons lors du survol */
+  color: azure; /* Couleur du texte des boutons lors du survol */
+}
+.identification {
+  padding: 90px;
+  margin-left: 30px;
+}
+.competance{
+  padding: 70px;
+}
+.competance div {
+  padding: 10px
+}
+.competance p {
+  display: flex;
+  justify-content: center;
+  gap: 30px
+}
+.troisdernierlogo{
+  display: flex;
+  justify-content: center;
+}
+.image{
+  margin-top: 64px;
+  margin-left: 100px;
+}
+.resumer{
+  text-align:justify;
+}
+@media screen and (max-width:960px){
+  .image{
+    display: none;
+  }
+}
+@media screen and (max-width:760px){
+  .identification{
+    padding-left: 0px;
+    padding-right: 0px;
+    margin: 0px;
+    text-align: center;
+  }
+  .resumer{
+    padding: 0px;
+    text-align: justify;
+  }
+
+}

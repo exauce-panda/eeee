@@ -1,0 +1,41 @@
+.bgcolors{
+    background-color: #0f1316; /* Couleur de fond pour la section */
+}
+.desc{
+    display:block;
+}
+.bob {
+    display: block;
+    color: azure; /* Couleur du texte */
+    padding: 3rem 0;
+    text-align: center;
+    align-items: center;
+}
+.bob h3{
+    padding-bottom: 55px;
+}
+.carousel{
+    margin: 43px;
+}
+.lien {
+    color: white;
+    display: flex;
+    gap:30px;
+    justify-content: center;
+}
+.lien a{
+    color: inherit;
+    padding: 10px;
+    border: 1px solid;
+    border-radius: 20px;
+    text-decoration: none;
+    transition: 400ms;
+}
+.lien a:hover{
+    color: gold;
+    border: 1px solid;
+}
+.titre{
+    padding-bottom: 50px;
+    text-align: center;
+}

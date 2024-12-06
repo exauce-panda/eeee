@@ -1,0 +1,35 @@
+/* Styles pour le fond des cartes d'événement */
+.bob {
+    display: block;
+    color: azure; /* Couleur du texte */
+    padding: 3rem 0;
+    text-align: center;
+    align-items: center;
+}
+.bob a{
+    color:forestgreen;
+    text-decoration: none;
+}
+.lien {
+    display: flex;
+    gap:30px;
+    text-decoration: none;
+    justify-content: center;
+    margin-top: 50px;
+}
+.lien a{
+    color: white;
+    color: inherit;
+    padding: 10px;
+    border: 1px solid;
+    border-radius: 20px;
+    transition: 400ms;
+    text-decoration: inherit;
+}
+.lien a:hover{
+    color: black;
+    border-color: white;
+    border: 1px solid;
+    border-radius: 30px;
+    background-color: aliceblue;
+}

@@ -1,0 +1,6 @@
+.all {
+    width: 100%;
+    height: 100%;
+    color: azure; /* Couleur du texte dans le conteneur */
+    padding-top: 150px;
+}
